@@ -1,6 +1,6 @@
 ﻿
 // Bootstrap
-import 'bootstrap';
+// import 'bootstrap';
 
 // Angular
 import '@angular/platform-browser';
