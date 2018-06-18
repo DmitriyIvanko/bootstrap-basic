@@ -1,4 +1,21 @@
-﻿.test {
+﻿@import "../assets/scss/app.scss";
+
+.one {
+  background-color: purple;
+}
+@include media-breakpoint-between(sm, md) {
+  .one {
+    /*display: none;*/
+    z-index: $zindex-dropdown;
+  }
+}
+
+.two {
+  background-color: red;
+}
+
+
+/*.test {
   font-size: 24px;
   background-color: red;
 }
@@ -26,4 +43,5 @@ agm-map {
 .map-panel {
   padding-right: 0;
   padding-left: 0;
-}
+}*/
+
